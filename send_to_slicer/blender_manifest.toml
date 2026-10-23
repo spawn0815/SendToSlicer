@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "send_to_slicer"
+version = "1.0.0"
+name = "Send to Slicer"
+tagline = "Send selected objects to your 3D printing slicer in one click"
+maintainer = "Dennis Fuchs"
+type = "add-on"
+website = "https://github.com/spawn0815/SendToSlicer"
+
+tags = ["Import-Export", "3D View", "Mesh"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2026 Dennis Fuchs"]
+
+[permissions]
+files = "Write temporary STL/3MF files and open them in the slicer"
